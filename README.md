@@ -52,3 +52,5 @@ module.exports = (robot) => {
   })
 }
 ```
+## Thanks
+Powered by [scheduler](https://github.com/probot/scheduler)
