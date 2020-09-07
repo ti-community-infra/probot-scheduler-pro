@@ -39,8 +39,7 @@ module.exports = (app, options) => {
   })
 
   app.on('installation_repositories.removed', async event => {
-    const installation = event.payload.installation
-    const { repositories_removed: repositoriesRemoved } = installation
+    const { repositories_removed: repositoriesRemoved } = event.payload
 
     repositoriesRemoved.forEach(repository => {
       stop(repository)
