@@ -24,7 +24,7 @@ module.exports = (app, options) => {
   })
 
   app.on('installation.deleted', async event => {
-    const repositories = event.payload
+    const { repositories } = event.payload
 
     repositories.forEach(repository => {
       stop(repository)
