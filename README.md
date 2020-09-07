@@ -5,11 +5,11 @@ A [Probot](https://github.com/probot/probot) extension to trigger events on an h
 ## Usage
 
 ```shell
-$ npm install probot-scheduler
+$ npm install probot-scheduler-pro
 ```
 
 ```js
-const createScheduler = require('probot-scheduler')
+const createScheduler = require('probot-scheduler-pro')
 
 module.exports = (robot) => {
   createScheduler(robot)
@@ -39,7 +39,7 @@ There are a few runtime options you can pass that can change the behavior of the
 For example, if you want your app to be triggered *once every day* with *delay enabled on first run*:
 
 ```js
-const createScheduler = require('probot-scheduler')
+const createScheduler = require('probot-scheduler-pro')
 
 module.exports = (robot) => {
   createScheduler(robot, {
