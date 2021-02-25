@@ -1,12 +1,15 @@
 ## Probot: Scheduler
 
-[![GitHub Actions](https://github.com/tidb-community-bots/probot-scheduler-pro/workflows/Test/badge.svg?branch=master)](https://github.com/features/actions)
-[![codecov](https://codecov.io/gh/tidb-community-bots/probot-scheduler-pro/branch/master/graph/badge.svg)](https://codecov.io/gh/tidb-community-bots/probot-scheduler-pro)
+[![GitHub Actions](https://github.com/ti-community-infra/probot-scheduler-pro/workflows/Test/badge.svg?branch=master)](https://github.com/features/actions)
+[![codecov](https://codecov.io/gh/ti-community-infra/probot-scheduler-pro/branch/master/graph/badge.svg)](https://codecov.io/gh/ti-community-infra/probot-scheduler-pro)
 [![Probot](https://badgen.net/badge/built%20with/probot/orange?icon=dependabot&cache=86400)](https://probot.github.io/)
 [![jest](https://facebook.github.io/jest/img/jest-badge.svg)](https://github.com/facebook/jest)
-[![ISC License](https://badgen.net/badge/license/ISC/blue?cache=86400)](https://tidb-community-bots.isc-license.org)
+[![ISC License](https://badgen.net/badge/license/ISC/blue?cache=86400)](https://ti-community-infra.isc-license.org)
 
 A [Probot](https://github.com/probot/probot) extension to trigger events on an hourly schedule.
+
+## Require
+Node >= 10
 
 ## Usage
 
