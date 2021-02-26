@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tidb-community-bots/probot-scheduler-pro.git"
+    "url": "git+https://github.com/ti-community-infra/probot-scheduler-pro.git"
   },
   "keywords": [
     "probot"
@@ -16,9 +16,9 @@
   "author": "Rustin-Liu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tidb-community-bots/probot-scheduler-pro/issues"
+    "url": "https://github.com/ti-community-infra/probot-scheduler-pro/issues"
   },
-  "homepage": "https://github.com/tidb-community-bots/probot-scheduler-pro#readme",
+  "homepage": "https://github.com/ti-community-infra/probot-scheduler-pro#readme",
   "peerDependencies": {
     "probot": ">=11.0.6"
   },
